@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 28vh;
+}
+
+p{
+    color: rgb(138, 138, 138);
+}
+
+.section{
+    background-color: green;
+    padding: 20px;
+    width: fit-content;
+}
+
+.container{
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    width: 22vw;
+    padding: 20px;
+}
+
+ol{
+    padding: 0px 40px;
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.red{
+    background-color: red;
+    border-color: red;
+    border-style: solid;
+}
+
+.green{
+    border-style: solid;
+    border-color: green;
+    background-color: green;
+}
+
+.blue{
+    border-style: solid;
+    border-color: rgb(20, 149, 196);
+    background-color: rgb(20, 149, 196);
+}
+
+button{
+    color: white;
+    padding: 0px 5px;
+    border-radius: 50px;
+}
+
+.strike{
+    text-decoration: line-through;
+    background-color: rgb(201, 201, 201);
+}
